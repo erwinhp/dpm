@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{URL::to('/')}}/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="{{URL::to('/')}}/assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="{{URL::to('/')}}/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>RECAP AP2T</title>
+    <title>RECAP FILTER</title>
 
 </head>
 
@@ -75,26 +75,39 @@
                              </li>
                              */
                              ?>
+
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Tabel</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Table Pascabayar</a>
                                 <div id="submenu-5" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{URL::to('/')}}/iexcel">Input Excel</a>
+                                            <a class="nav-link" href="{{URL::to('/')}}/iexcel">Input Excel Pascabayar</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="{{URL::to('/')}}/ijam">Filter Jam</a>
+                                            <a class="nav-link" href="{{URL::to('/')}}/ijam">Filter Jam Pascabayar  </a>
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link active" href="{{URL::to('/')}}/home" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fas fa-fw fa-table"></i>Table Prabayar <span class="badge badge-success">6</span></a>
+                                    <div id="submenu-1" class="collapse submenu" style="">
+                                        <ul class="nav flex-column">
+
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{URL::to('/')}}/iexcel">Input Excel Prabayar</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="{{URL::to('/')}}/ijam">Filter Jam prabayar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                              </ul>
+                            </div>
 
 
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </nav>
             </div>
@@ -131,9 +144,6 @@
                     <div class="col-md-6">
 
                       <!-- Video -->
-                      <div class="embed-responsive embed-responsive-16by9 mb-4">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM" allowfullscreen></iframe>
-                      </div>
 
                     </div>
                     <!--Grid column-->

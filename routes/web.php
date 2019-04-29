@@ -19,5 +19,8 @@ Route::get('/', function () {
 
 Route::resource ('iexcel','CimportExcel');
 Route::resource ('ijam','CjamFilter');
+Route::resource ('iexcelpra','iexcelPra');
+Route::resource ('ijampra','cJamPra');
 Route::resource ('dfilter','cdetailFilter');
+Route::resource ('filter3mth','c3mth');
 Route::resource ('mapspel','maps');

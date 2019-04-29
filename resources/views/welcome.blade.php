@@ -3,7 +3,7 @@
 <div class="container">
   <div class="alert alert-success alert-block">
     <button type="button" class="close" data-dismiss="alert">×</button>
-        <strong>WELCOME MADUDE</strong>
+        <strong>WELCOME</strong>
   </div>
 </div>
 @endsection
